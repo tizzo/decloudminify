@@ -2,8 +2,8 @@
 
 This module allows you to write a service that can be run in three different ways:
 
-1. Run Express apps on Cloudmine substituting paths passed as a `?path=/blah` query parameter for the express path (this is the [deCloudmine](#deCloudminify-middleware)
-2. Run Express apps locally as though they were on Cloudmine providing request rewriting similar to the rewrites performed by the Cloudmine proxying layers [cloudminify middleware](#cloudminify-middleware)
+1. Run Express apps on Cloudmine substituting paths passed as a `?path=/blah` query parameter for the express path (this is the [deCloudminify middleware](#deCloudminify-middleware))
+2. Run Express apps locally as though they were on Cloudmine providing request rewriting similar to the rewrites performed by the Cloudmine proxying layers (this is the [cloudminify middleware](#cloudminify-middleware))
 3. Remove the middleware and run that same Express app outside of cloudmine with normal routing
 
 [Cloudmine](https://cloudmineinc.com/) offers a code hosting environment
