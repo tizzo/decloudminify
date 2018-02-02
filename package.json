@@ -1,0 +1,36 @@
+{
+  "name": "decloudminify",
+  "version": "1.0.0",
+  "author": "Howard Tyson <howard@howardtyson.com>",
+  "license": "MIT",
+  "description": "A simple middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "test:watch": "mocha --recursive -w test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tizzo/decloudmineify.git"
+  },
+  "keywords": [
+    "CloudMine",
+    "cloudmine"
+  ],
+  "bugs": {
+    "url": "https://github.com/tizzo/decloudmineify/issues"
+  },
+  "homepage": "https://github.com/tizzo/decloudmineify",
+  "dependencies": {
+    "body-parser": "^1.18.2"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "should": "^13.2.1"
+  }
+}
