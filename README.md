@@ -1,4 +1,5 @@
 # deCloudminify
+[![Build Status](https://travis-ci.org/tizzo/decloudminify.svg?branch=master)](https://travis-ci.org/tizzo/decloudminify)[![Coverage Status](https://coveralls.io/repos/github/tizzo/decloudminify/badge.svg?branch=master)](https://coveralls.io/github/tizzo/decloudminify?branch=master)
 
 This module allows you to write a service that can be run in three different ways:
 
