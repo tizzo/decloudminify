@@ -22,7 +22,7 @@ const express = require('express');
 const app = express();
 const deCloudminify = require('deCloudminify').deCloudminify;
 app.use(deCloudminify());
-app.get('/foo', (req, res) => {
+app.get('/foo/bar', (req, res) => {
   res.send({foo: 'bar'});
 });
 ```
@@ -38,7 +38,7 @@ const express = require('express');
 const app = express();
 const cloudminify = require('deCloudminify').cloudminify;
 app.use(cloudminify());
-app.get('/foo', (req, res) => {
+app.get('/foo/bar', (req, res) => {
   res.send({foo: 'bar'});
 });
 ```
