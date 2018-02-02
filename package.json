@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/tizzo/decloudmineify",
   "dependencies": {
-    "body-parser": "^1.18.2"
+    "body-parser": "^1.18.2",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "express": "^4.16.2",
-    "lodash": "^4.17.4",
     "mocha": "^5.0.0",
     "nyc": "^11.4.1",
     "request": "^2.83.0",
