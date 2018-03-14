@@ -37,8 +37,12 @@ request rewiriting performed by the Cloudmine servers.
 ``` javascript
 const express = require('express');
 const app = express();
-const cloudminify = require('deCloudminify').cloudminify;
-app.use(cloudminify());
+if(process.env.NODE_ENV == 'development'){
+  const cloudminify = require('deCloudminify').cloudminify;
+  api.use(cloudminify());
+}
+const deCloudminify = require('deCloudminify').deCloudminify;
+api.use(deCloudminify());
 app.get('/foo/bar', (req, res) => {
   res.send({foo: 'bar'});
 });
